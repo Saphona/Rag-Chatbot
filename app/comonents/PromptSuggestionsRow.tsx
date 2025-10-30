@@ -2,8 +2,10 @@ import PromptSuggestionButton from "./PromptSuggestionButton"
 
 const PromptSuggestionsRow= ({onPromptClick})=>{
     const prompts=[
-        "Who is the newest driver for Ferrari?",
-        "why is ferari named ferari?",
+        "what happend in ufc 318?",
+        "What is islam makachev's record?",
+        "who trained islam makachev",
+        "what was ufc's latest fight"
     ]
 
     return(

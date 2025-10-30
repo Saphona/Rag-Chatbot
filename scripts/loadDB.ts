@@ -17,9 +17,9 @@ const {
 const openai = new OpenAI({apiKey:OPENAI_API_KEY })
 
 const f1Data=[
-'https://en.wikipedia.org/wiki/Formula_One',
-'https://www.skysports.com/f1',
-'https://www.the-race.com/'
+'https://en.wikipedia.org/wiki/Islam_Makhachev#Oliveira_vs._Makhachev',
+'https://en.wikipedia.org/wiki/Ultimate_Fighting_Championship',
+'https://en.wikipedia.org/wiki/UFC_318'
 ]
 
 const client= new DataAPIClient(ASTRA_DB_APPLICATION_TOKEN)
@@ -82,7 +82,7 @@ const scrapePage =async(url:string)=>{
     }
    })
    return (await loader.scrape())?.replace(/<[^>]*>/g, '');
-  //  using regex with nothing to strip out only the html tags to only get text
+  //  regex
 }
 
 

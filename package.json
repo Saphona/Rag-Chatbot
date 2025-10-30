@@ -11,15 +11,24 @@
   },
   "dependencies": {
     "@datastax/astra-db-ts": "^1.1.0",
+    "@radix-ui/react-scroll-area": "^1.2.10",
+    "@radix-ui/react-slot": "^1.2.3",
+    "@tailwindcss/postcss": "^4.1.13",
     "ai": "^3.1.8",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
     "dotenv": "^16.5.0",
     "langchain": "^0.1.36",
+    "lucide-react": "^0.542.0",
     "next": "15.3.2",
     "openai": "^4.41.0",
+    "postcss": "^8.5.6",
     "pupeteer": "^0.0.1",
     "puppeteer": "^19.11.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss": "^4.1.13",
     "ts-node": "^10.9.2"
   },
   "devDependencies": {
@@ -29,6 +38,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.3.2",
+    "tw-animate-css": "^1.3.8",
     "typescript": "^5"
   }
 }

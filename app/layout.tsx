@@ -2,8 +2,8 @@ import "./global.css"
 
 
 export const metadata={
-    title:"F1gpt",
-    description:"the place to go for all your f1 questions",
+    title:"UFC",
+    description:"best place for your UFC questions",
 
 }
 
